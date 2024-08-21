@@ -78,3 +78,21 @@ else if (nota >= 50 && nota <= 69){
 else if (nota >= 0 && nota <= 49){
     console.log ("Regular ")
 }
+
+//EJERCICIO 7 
+
+let OpcioMenu = prompt ("Elija una opción de menú: 1- Pizza 2- Hamburguesa 3- Tacos");
+
+switch (OpcioMenu) { 
+    case 1: 
+    console.log ("Has elegido pizza ")
+    break; 
+    case 2: 
+    console.log ("Has elegido hamburguesa ")
+    break; 
+    case 3: 
+    console.log ("Has elegido tacos ")
+    
+    default: 
+    console.log ("Opcón no valida. ")
+}
