@@ -94,7 +94,7 @@ switch (OpcioMenu) {
     console.log ("Has elegido tacos ")
     
     default: 
-    console.log ("Opcón no valida. ")
+    console.log ("Opción no valida. ")
 }
 
 //EJERCICIO 8
@@ -141,3 +141,19 @@ else {
     let descuento = PrecioBase *0.5 
     console.log ("El precio del producto con descuento es: " + (PrecioBase - descuento))
 }
+
+//EJERCICIO 11
+
+let ValorBase = prompt("Ingrese el valor base del producto: ");
+
+if (ValorBase > 500) {
+    let descuento = ValorBase * 0.15;
+    console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
+} else if (ValorBase >= 300 && ValorBase <= 500) {
+    let descuento = ValorBase * 0.10;
+    console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
+} else {
+    let descuento = ValorBase * 0.05;
+    console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
+}
+
