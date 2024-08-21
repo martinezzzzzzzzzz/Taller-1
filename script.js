@@ -125,3 +125,19 @@ if (adivinaNumero == numeroAleatorio) {
 else {
     console.log("Has perdido! El número era " + numeroAleatorio)
 }
+
+//EJERCICIO 10
+
+let PrecioBase = prompt ("Ingrese el precio base del producto: ")
+if (PrecioBase > 500) {
+    let descuento = PrecioBase * 0.15
+    console.log ("El precio del producto con descuento es: " + (PrecioBase - descuento))
+}
+if(PrecioBase >= 300 && PrecioBase < 500){
+    let descuento = PrecioBase * 0.10
+    console.log ("El precio del producto con descuento es: " + (PrecioBase - descuento))
+}
+else {
+    let descuento = PrecioBase *0.5 
+    console.log ("El precio del producto con descuento es: " + (PrecioBase - descuento))
+}
