@@ -19,13 +19,16 @@ else {
     console.log ("El número es negativo ")
 }
 
-//EJERCICIO 3
+//EJERCICIO 3 
 
-let numeroUsuarioParUimpar = prompt ("Ingese el número: ")
-if (numeroUsuarioParUimpar % 2 == 0 ) {
-    console.log ("El número es par ")
+let totalCompra = prompt ("Ingrese el total de su compra: ")
+if (totalCompra > 100) {
+    let descuento = totalCompra * 0.1 
+    totalCompra = totalCompra - descuento
+    console.log ("Tienes un descuento del 10% y su total es: " + totalCompra)
 }
-else { 
-    console.log ("El número es impar ")
 
+else{ 
+    console.log ("No tines descuento ")
 }
+
