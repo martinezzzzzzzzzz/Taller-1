@@ -44,3 +44,20 @@ else if (numero1 < numero2) {
     console.log ("El segundo número es mayor que el segundo ")
 
 }
+
+//EJERCICIO 5
+
+let ClasifiacionDeEdad = prompt ("Ingrese su edad: ")
+if (ClasifiacionDeEdad >= 0 && ClasifiacionDeEdad <= 12) {
+    console.log ("Eres un niño ")
+}
+else if (ClasifiacionDeEdad > 12 && ClasifiacionDeEdad < 17) {
+    console.log ("Eres un adolescente")
+}
+else if (ClasifiacionDeEdad > 18 && ClasifiacionDeEdad < 64){
+    console.log ("Eres un adulto ")
+
+}
+else if (ClasifiacionDeEdad >= 64) {
+    console.log ("Eres un adulto mayor ")
+}
