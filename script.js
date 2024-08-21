@@ -96,3 +96,20 @@ switch (OpcioMenu) {
     default: 
     console.log ("Opcón no valida. ")
 }
+
+//EJERCICIO 8
+
+let LadoTriangulo = ("Ingrese el primer lado del triangulo: ")
+let LadoTriangulo2 = ("Ingrese el segundo lado del triangulo: ")
+let LadoTriangulo3 = ("Ingrese el tercer lado del triangulo: ")
+if(LadoTriangulo == LadoTriangulo2 == LadoTriangulo3){
+    console.log("El triángulo es equilátero ")
+
+}
+else if (LadoTriangulo === LadoTriangulo2 || LadoTriangulo2 === LadoTriangulo3 || LadoTriangulo3 === LadoTriangulo){
+    console.log("El triángulo es isósceles ")
+}
+
+else{
+    console.log("El triángulo es escaleno ")
+}
