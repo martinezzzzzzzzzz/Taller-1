@@ -157,3 +157,12 @@ if (ValorBase > 500) {
     console.log("El precio del producto con descuento es: $" + (ValorBase - descuento));
 }
 
+//EJERCICIO 12 
+
+let año = prompt("Ingrese un año: ");
+
+if ((año % 4 === 0 && anio % 100 !== 0) || anio % 400 === 0) {
+    console.log("El año " + año + " es bisiesto.");
+} else {
+    console.log("El año " + año + " no es bisiesto.");
+}
